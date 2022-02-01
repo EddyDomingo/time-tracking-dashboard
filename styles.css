@@ -87,7 +87,7 @@ a:focus{
 
 .card-container{
     background: hsl(15, 100%, 70%);
-    background-image: url('./images/icon-work.svg');
+    background-image: url('icon-work.svg');
     background-repeat: no-repeat;
     background-position: right top;
     padding: 3rem 0 0 0;
@@ -98,7 +98,7 @@ a:focus{
 
 .card-container1{
     background: hsla(195, 74%, 62%, 1);
-    background-image: url('./images/icon-play.svg');
+    background-image: url('icon-play.svg');
     background-repeat: no-repeat;
     background-position: right top;
     padding: 3rem 0 0 0;
@@ -109,7 +109,7 @@ a:focus{
 
 .card-container2{
     background: hsl(348, 100%, 68%);
-    background-image: url('./images/icon-study.svg');
+    background-image: url('icon-study.svg');
     background-repeat: no-repeat;
     background-position: right top;
     padding: 3rem 0 0 0;
@@ -120,7 +120,7 @@ a:focus{
 
 .card-container3{
     background: hsl(145, 58%, 55%);
-    background-image: url('./images/icon-exercise.svg');
+    background-image: url('icon-exercise.svg');
     background-repeat: no-repeat;
     background-position: right top;
     padding: 3rem 0 0 0;
@@ -131,7 +131,7 @@ a:focus{
 
 .card-container4{
     background: hsl(264, 64%, 52%);
-    background-image: url('./images/icon-social.svg');
+    background-image: url('icon-social.svg');
     background-repeat: no-repeat;
     background-position: right top;
     padding: 3rem 0 0 0;
@@ -142,7 +142,7 @@ a:focus{
 
 .card-container5{
     background: hsl(43, 84%, 65%);
-    background-image: url('./images/icon-self-care.svg');
+    background-image: url('icon-self-care.svg');
     background-repeat: no-repeat;
     background-position: right top;
     padding: 3rem 0 0 0;
