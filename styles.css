@@ -1,0 +1,252 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(226, 43%, 10%);
+    color:white;
+    padding: 2rem 1rem;
+    font-family: 'Rubik', sans-serif;
+    max-width: 1000px;
+    
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: 300;
+    display: inline-block;
+    
+}
+
+h3::before{
+    content:"Report for";
+    display: block;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: hsl(236, 100%, 87%);
+}
+
+p{
+    font-size: 1.125rem;
+}
+
+img{
+    width: 20%;
+    
+}
+
+.img-avatar{
+    background: white;
+    border-radius: 50%;
+    border: solid white 2px;
+}
+
+.card, .card-container,
+.card-container1,.card-container2,
+.card-container3,
+.card-container4,
+.card-container5, .container-name, .name-card{
+    border-radius: 0.8rem; 
+}
+
+.container-name{
+    background: hsla(235, 46%, 20%, 1);
+    padding: 0 0 1rem 0;
+    width:100%;
+}
+
+.name-card{
+    background: hsl(246, 80%, 60%);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;  
+}
+
+a{
+    text-decoration: none;
+    color: hsla(235, 45%, 61%, 1);
+}
+
+a:hover,
+a:focus{
+    color: white;
+}
+
+.card-container{
+    background: hsl(15, 100%, 70%);
+    background-image: url('./images/icon-work.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 3rem 0 0 0;
+    margin: 1rem 0 2rem 0;
+    z-index: -1;
+    
+}
+
+.card-container1{
+    background: hsla(195, 74%, 62%, 1);
+    background-image: url('./images/icon-play.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 3rem 0 0 0;
+    margin: 1rem 0 2rem 0;
+    z-index: -1;
+    
+}
+
+.card-container2{
+    background: hsl(348, 100%, 68%);
+    background-image: url('./images/icon-study.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 3rem 0 0 0;
+    margin: 1rem 0 2rem 0;
+    z-index: -1;
+    
+}
+
+.card-container3{
+    background: hsl(145, 58%, 55%);
+    background-image: url('./images/icon-exercise.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 3rem 0 0 0;
+    margin: 1rem 0 2rem 0;
+    z-index: -1;
+    
+}
+
+.card-container4{
+    background: hsl(264, 64%, 52%);
+    background-image: url('./images/icon-social.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 3rem 0 0 0;
+    margin: 1rem 0 2rem 0;
+    z-index: -1;
+    
+}
+
+.card-container5{
+    background: hsl(43, 84%, 65%);
+    background-image: url('./images/icon-self-care.svg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 3rem 0 0 0;
+    margin: 1rem 0 2rem 0;
+    z-index: -1;
+    
+}
+
+.card{
+    background: hsla(235, 46%, 20%, 1);
+    margin: 0rem 0 0 0;
+    padding: 1.5rem 1rem;
+    width:100%;
+    z-index: 1;
+    
+}
+
+.img-action{
+    margin: 0 0 0 78%;
+}
+
+
+
+.task-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+
+.task-hours{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.task-activity{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.task-time{
+    text-align: right;
+    
+}
+
+.previous{
+    color:hsl(236, 100%, 87%);
+    font-size: 0.9rem;
+    margin:0.8rem 0 0 0;
+}
+
+.weekly, .monthly{
+    display: none;
+}
+
+@media only screen and (min-width: 800px){
+  
+
+    main{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25% ;
+        grid-gap: 10px;
+    }
+    .container-name{
+        grid-row: 1 / span 2;
+        
+    }
+    .name-card{
+        padding:3rem 1rem;
+        display: block;
+    }
+    h3{
+        font-size: 2rem;
+        display: block;
+        
+    }
+
+    .img-avatar{
+        width: 30%;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    li{
+        margin: 0.5rem 0.5rem;  
+    }
+    .task-hours {
+            font-size: 2rem;
+       
+    } 
+    .card{
+        padding: 3rem 1rem;
+        
+    }
+    .card-container,
+    .card-container1,
+    .card-container2,
+    .card-container3,
+    .card-container4,
+    .card-container5{
+        margin: 0rem 0 0.5rem 0;
+    }
+   
+}
